@@ -9,9 +9,9 @@ namespace Couchbase.Management
 	{
 		public int UpTime { get; set; }
 
-		public long MemoryTotal { get; set; }
+		public double MemoryTotal { get; set; }
 
-		public long MemoryFree { get; set; }
+		public double MemoryFree { get; set; }
 
 		public int MCDMemoryReserved { get; set; }
 

@@ -9,7 +9,7 @@ namespace Couchbase.Management
 	{
 		public double CPU_Utilization_Rate { get; set; }
 
-		public long SWAP_Total { get; set; }
+		public double SWAP_Total { get; set; }
 
 		public long SWAP_Used { get; set; }
 	}
